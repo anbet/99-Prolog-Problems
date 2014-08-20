@@ -5,7 +5,7 @@ phython
 learning phython in phase 2
 i am anoop
 what is your name
-i am Windows
+i am apple
 
 =======
 learning phython in phase 1
