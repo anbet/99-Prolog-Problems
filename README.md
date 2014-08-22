@@ -2,10 +2,7 @@ phython
 =======
 
 <<<<<<< HEAD
-learning phython in phase 2
-i am anoop
-what is your name
-i am apple
+This is all about Exercises to lern Phython in elegent way.
 
 =======
 learning phython in phase 1
