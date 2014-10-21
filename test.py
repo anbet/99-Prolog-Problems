@@ -1,19 +1,35 @@
-def multi(n):
-	i=1
-	
-	while i<=n:
-		j=1
-		while j<=i:
-			print i*j,"\t",
-			j+=1
-		print
-		
-		i+=1
+import string
+def uncompress(li):
+	res=[]
+	v0=[]
+	res1=[]
+	 
+	for e in li:
+		if type(e) is list:  
+			res.extend(e)
+			print res,"inside extend"
+		else:
+			res.append(e)
+			print res, "inside append"
 
-n1=raw_input("Enter the number to find tabels upto\n")
-n1=int(n1)
-multi(n1)
+	print res,'the result '
 
+	for i,e1 in enumerate(res[:-1]):
+		print string.digits
 
+		if e1 in string.digits:
+			#print string.digits
 
-	
+			temp=res[i-1]*int(res[i])
+			print temp,'the temp'
+			v0.append(temp )
+		else:
+			v0.append(e1)  
+	#print res
+	return v0
+	 
+
+if __name__=="__main__":
+	li=[['a', '2'], ['b', '2'], 'c', 'd', ['a', '3'], 'b', 'c', 'd', 'e']
+	v0=uncompress(li)
+	print v0	
